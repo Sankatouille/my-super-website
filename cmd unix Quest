@@ -1,0 +1,371 @@
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ touch index.html
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ code.
+bash: code.: command not found
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ code .
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git add .
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git commit -m "add Skel"
+[master (root-commit) 5b2adf8] add Skel
+ 1 file changed, 10 insertions(+)
+ create mode 100644 index.html
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 337 bytes | 168.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Sankatouille/my-super-website.git
+ * [new branch]      master -> master
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git add .
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git commit -m "changed title"
+[master f0674b8] changed title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git puhs
+git: 'puhs' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 286 bytes | 143.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Sankatouille/my-super-website.git
+   5b2adf8..f0674b8  master -> master
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ cd..
+bash: cd..: command not found
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop/my-super-website (master)
+$ cd ..
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ ls
+"CFP Presqu'ile"/
+ Discord.lnk*
+'Dossier Mise en forme du projet pour le financement de la formation WCS'/
+'Dossier final Financement'/
+'Enquête métier.docx'
+ Git-it-Win-ia32/
+ Git-it-Win-ia32.zip
+'GitHub Desktop.lnk'*
+'Odyssey - Wild Code School.lnk'*
+ Slack.lnk*
+'TreeSize Free.lnk'*
+'Visual Studio Code.lnk'*
+ Wild-Git/
+ Wild-Git1/
+'cLé USB blanche'/
+ desktop.ini
+'enquètes métier'/
+ github/
+ my-super-website/
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ ls images
+ls: cannot access 'images': No such file or directory
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ ls Images
+ls: cannot access 'Images': No such file or directory
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ ls /bin
+'[.exe'*                         msys-gpg-error-0.dll*
+ addgnupghome*                   msys-gssapi-3.dll*
+ applygnupgdefaults*             msys-hcrypto-4.dll*
+ arch.exe*                       msys-heimbase-1.dll*
+ astextplain*                    msys-heimntlm-0.dll*
+ autopoint*                      msys-hogweed-6.dll*
+ awk.exe*                        msys-hx509-5.dll*
+ b2sum.exe*                      msys-iconv-2.dll*
+ backup*                         msys-idn2-0.dll*
+ base32.exe*                     msys-intl-8.dll*
+ base64.exe*                     msys-kafs-0.dll*
+ basename.exe*                   msys-krb5-26.dll*
+ basenc.exe*                     msys-ksba-8.dll*
+ bash.exe*                       msys-lz4-1.dll*
+ bashbug*                        msys-magic-1.dll*
+ bunzip2.exe*                    msys-mpfr-6.dll*
+ bzcat.exe*                      msys-ncursesw6.dll*
+ bzcmp*                          msys-nettle-8.dll*
+ bzdiff*                         msys-npth-0.dll*
+ bzegrep*                        msys-p11-kit-0.dll*
+ bzfgrep*                        msys-pcre-1.dll*
+ bzgrep*                         msys-perl5_34.dll*
+ bzip2.exe*                      msys-psl-5.dll*
+ bzip2recover.exe*               msys-readline8.dll*
+ bzless*                         msys-roken-18.dll*
+ bzmore*                         msys-sasl2-3.dll*
+ c_rehash*                       msys-serf-1-0.dll*
+ captoinfo.exe*                  msys-smartcols-1.dll*
+ cat.exe*                        msys-sqlite3-0.dll*
+ chattr.exe*                     msys-ssl-1.1.dll*
+ chcon.exe*                      msys-svn_client-1-0.dll*
+ chgrp.exe*                      msys-svn_delta-1-0.dll*
+ chmod.exe*                      msys-svn_diff-1-0.dll*
+ chown.exe*                      msys-svn_fs-1-0.dll*
+ chroot.exe*                     msys-svn_fs_fs-1-0.dll*
+ cksum.exe*                      msys-svn_fs_util-1-0.dll*
+ clear.exe*                      msys-svn_fs_x-1-0.dll*
+ cmp.exe*                        msys-svn_ra-1-0.dll*
+ column.exe*                     msys-svn_ra_local-1-0.dll*
+ comm.exe*                       msys-svn_ra_serf-1-0.dll*
+ core_perl/                      msys-svn_ra_svn-1-0.dll*
+ cp.exe*                         msys-svn_repos-1-0.dll*
+ csplit.exe*                     msys-svn_subr-1-0.dll*
+ cut.exe*                        msys-svn_swig_perl-1-0.dll*
+ cygcheck.exe*                   msys-svn_wc-1-0.dll*
+ cygpath.exe*                    msys-tasn1-6.dll*
+ cygwin-console-helper.exe*      msys-ticw6.dll*
+ d2u.exe*                        msys-unistring-2.dll*
+ dash.exe*                       msys-uuid-1.dll*
+ date.exe*                       msys-wind-0.dll*
+ dd.exe*                         msys-z.dll*
+ df.exe*                         mv.exe*
+ diff.exe*                       nano.exe*
+ diff3.exe*                      nettle-hash.exe*
+ dir.exe*                        nettle-lfib-stream.exe*
+ dircolors.exe*                  nettle-pbkdf2.exe*
+ dirmngr-client.exe*             ngettext.exe*
+ dirmngr.exe*                    nice.exe*
+ dirname.exe*                    nl.exe*
+ docx2txt*                       nohup.exe*
+ docx2txt.pl*                    notepad*
+ dos2unix.exe*                   nproc.exe*
+ du.exe*                         numfmt.exe*
+ dumpsexp.exe*                   od.exe*
+ echo.exe*                       openssl.exe*
+ egrep*                          p11-kit.exe*
+ env.exe*                        passwd.exe*
+ envsubst.exe*                   paste.exe*
+ ex.exe*                         patch.exe*
+ expand.exe*                     pathchk.exe*
+ expr.exe*                       perl.exe*
+ factor.exe*                     perl5.34.0.exe*
+ false.exe*                      pinentry-w32.exe*
+ fgrep*                          pinentry.exe*
+ fido2-assert.exe*               pinky.exe*
+ fido2-cred.exe*                 pkcs1-conv.exe*
+ fido2-token.exe*                pldd.exe*
+ file.exe*                       pluginviewer.exe*
+ find.exe*                       pr.exe*
+ findssl.sh*                     printenv.exe*
+ fmt.exe*                        printf.exe*
+ fold.exe*                       ps.exe*
+ funzip.exe*                     psl-make-dafsa*
+ gapplication.exe*               psl.exe*
+ gawk-5.0.0.exe*                 ptx.exe*
+ gawk.exe*                       pwd.exe*
+ gdbus.exe*                      readlink.exe*
+ gencat.exe*                     realpath.exe*
+ getconf.exe*                    rebase.exe*
+ getemojis*                      rebaseall*
+ getfacl.exe*                    recode-sr-latin.exe*
+ getopt.exe*                     regtool.exe*
+ gettext.exe*                    reset.exe*
+ gettext.sh*                     restore*
+ gettextize*                     rm.exe*
+ gio-querymodules.exe*           rmdir.exe*
+ git-flow*                       rnano.exe*
+ git-flow-bugfix                 runcon.exe*
+ git-flow-config                 rview.exe*
+ git-flow-feature                rvim.exe*
+ git-flow-hotfix                 scp.exe*
+ git-flow-init                   sdiff.exe*
+ git-flow-log                    sed.exe*
+ git-flow-release                seq.exe*
+ git-flow-support                setfacl.exe*
+ git-flow-version                setmetamode.exe*
+ gitflow-common                  sexp-conv.exe*
+ gitflow-shFlags                 sftp.exe*
+ gkill.exe*                      sh.exe*
+ glib-compile-schemas.exe*       sha1sum.exe*
+ gobject-query.exe*              sha224sum.exe*
+ gpg-agent.exe*                  sha256sum.exe*
+ gpg-connect-agent.exe*          sha384sum.exe*
+ gpg-error.exe*                  sha512sum.exe*
+ gpg-wks-server.exe*             shred.exe*
+ gpg.exe*                        shuf.exe*
+ gpgconf.exe*                    sleep.exe*
+ gpgparsemail.exe*               sort.exe*
+ gpgscm.exe*                     split.exe*
+ gpgsm.exe*                      ssh-add.exe*
+ gpgsplit.exe*                   ssh-agent.exe*
+ gpgtar.exe*                     ssh-copy-id*
+ gpgv.exe*                       ssh-keygen.exe*
+ grep.exe*                       ssh-keyscan.exe*
+ groups.exe*                     ssh-pageant.exe*
+ gsettings.exe*                  ssh.exe*
+ gunzip*                         sshd.exe*
+ gzexe*                          ssp.exe*
+ gzip.exe*                       start*
+ head.exe*                       stat.exe*
+ hmac256.exe*                    strace.exe*
+ hostid.exe*                     stty.exe*
+ hostname.exe*                   sum.exe*
+ iconv.exe*                      sync.exe*
+ id.exe*                         tabs.exe*
+ infocmp.exe*                    tac.exe*
+ infotocap.exe*                  tail.exe*
+ install.exe*                    tar.exe*
+ join.exe*                       tee.exe*
+ kbxutil.exe*                    test.exe*
+ kill.exe*                       tic.exe*
+ ldd.exe*                        tig.exe*
+ ldh.exe*                        timeout.exe*
+ less.exe*                       toe.exe*
+ lessecho.exe*                   touch.exe*
+ lesskey.exe*                    tput.exe*
+ link.exe*                       tr.exe*
+ ln.exe*                         true.exe*
+ locale.exe*                     truncate.exe*
+ locate.exe*                     trust.exe*
+ logname.exe*                    tset.exe*
+ ls.exe*                         tsort.exe*
+ lsattr.exe*                     tty.exe*
+ mac2unix.exe*                   tzset.exe*
+ md5sum.exe*                     u2d.exe*
+ minidumper.exe*                 umount.exe*
+ mintheme*                       uname.exe*
+ mintty.exe*                     uncompress*
+ mkdir.exe*                      unexpand.exe*
+ mkfifo.exe*                     uniq.exe*
+ mkgroup.exe*                    unix2dos.exe*
+ mknod.exe*                      unix2mac.exe*
+ mkpasswd.exe*                   unlink.exe*
+ mktemp.exe*                     unzip.exe*
+ mount.exe*                      unzipsfx.exe*
+ mpicalc.exe*                    update-ca-trust*
+ msgattrib.exe*                  updatedb*
+ msgcat.exe*                     users.exe*
+ msgcmp.exe*                     vdir.exe*
+ msgcomm.exe*                    vendor_perl/
+ msgconv.exe*                    vi*
+ msgen.exe*                      view.exe*
+ msgexec.exe*                    vim.exe*
+ msgfilter.exe*                  vimdiff.exe*
+ msgfmt.exe*                     vimtutor*
+ msggrep.exe*                    watchgnupg.exe*
+ msginit.exe*                    wc.exe*
+ msgmerge.exe*                   which.exe*
+ msgunfmt.exe*                   who.exe*
+ msguniq.exe*                    whoami.exe*
+ msys-2.0.dll*                   winpty-agent.exe*
+ msys-apr-1-0.dll*               winpty-debugserver.exe*
+ msys-aprutil-1-0.dll*           winpty.dll*
+ msys-asn1-8.dll*                winpty.exe*
+ msys-assuan-0.dll*              wordpad*
+ msys-bz2-1.dll*                 xargs.exe*
+ msys-cbor-0.8.dll*              xgettext.exe*
+ msys-com_err-1.dll*             xxd.exe*
+ msys-crypt-0.dll*               yat2m.exe*
+ msys-crypto-1.1.dll*            yes.exe*
+ msys-edit-0.dll*                zcat*
+ msys-ffi-7.dll*                 zcmp*
+ msys-fido2-1.dll*               zdiff*
+ msys-gcc_s-seh-1.dll*           zegrep*
+ msys-gcrypt-20.dll*             zfgrep*
+ msys-gettextlib-0-19-8-1.dll*   zforce*
+ msys-gettextsrc-0-19-8-1.dll*   zgrep*
+ msys-gio-2.0-0.dll*             zipgrep*
+ msys-glib-2.0-0.dll*            zipinfo.exe*
+ msys-gmodule-2.0-0.dll*         zless*
+ msys-gmp-10.dll*                zmore*
+ msys-gnutls-30.dll*             znew*
+ msys-gobject-2.0-0.dll*
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ pwd
+/c/Users/Benjamin/Desktop
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ cd Images
+bash: cd: Images: No such file or directory
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~/Desktop
+$ cd /usr
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /usr
+$ cd/documents
+bash: cd/documents: No such file or directory
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /usr
+$ cd ..
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /
+$ cd Documents
+bash: cd: Documents: No such file or directory
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /
+$ pwd
+/
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /
+$ pwd
+/
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /
+$ /
+bash: /: Is a directory
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /
+$ cd /
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 /
+$ cd ~
+
+Benjamin@LAPTOP-K1OGQN24 MINGW64 ~
+$
